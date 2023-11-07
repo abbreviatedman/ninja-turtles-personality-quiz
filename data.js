@@ -1,32 +1,26 @@
 const colors = require("@colors/colors/safe");
 
 const turtles = {
-  ALICE: {
-    id: 0,
-    displayName: "Alice",
-    color: colors.magenta,
-  },
-
   DONATELLO: {
-    id: 1,
+    id: 0,
     displayName: "Donatello",
     color: colors.bold.brightMagenta,
   },
 
   LEONARDO: {
-    id: 2,
+    id: 1,
     displayName: "Leonardo",
     color: colors.bold.blue,
   },
 
   MICHAELANGELO: {
-    id: 3,
+    id: 2,
     displayName: "Michaelangelo",
     color: colors.bold.yellow,
   },
 
   RAPHAEL: {
-    id: 4,
+    id: 3,
     displayName: "Raphael",
     color: colors.bold.red,
   },
@@ -52,10 +46,6 @@ const questions = [
         text: "Purple",
         turtle: turtles.DONATELLO,
       },
-      {
-        text: "Pink",
-        turtle: turtles.ALICE,
-      },
     ],
   },
   {
@@ -77,10 +67,6 @@ const questions = [
         text: "Parrot",
         turtle: turtles.MICHAELANGELO,
       },
-      {
-        text: "Bunny",
-        turtle: turtles.ALICE,
-      },
     ],
   },
   {
@@ -93,10 +79,6 @@ const questions = [
       {
         text: "Going to the Maker's Fair in San Francisco.",
         turtle: turtles.DONATELLO,
-      },
-      {
-        text: "Going to the ferry coaster in Staten Island.",
-        turtle: turtles.ALICE,
       },
       {
         text: "Surfing in Hawaii.",
@@ -127,10 +109,6 @@ const questions = [
         text: "a sensible four-door sedan",
         turtle: turtles.LEONARDO,
       },
-      {
-        text: "A clean purple car",
-        turtle: turtles.ALICE,
-      },
     ],
   },
   {
@@ -149,10 +127,6 @@ const questions = [
         turtle: turtles.RAPHAEL,
       },
       {
-        text: "Sneak up to them, knock them over, and jump on them.",
-        turtle: turtles.ALICE,
-      },
-      {
         text: "Plan your battle strategy.",
         turtle: turtles.LEONARDO,
       },
@@ -168,10 +142,6 @@ const questions = [
       {
         text: "Beating all your brothers in combat.",
         turtle: turtles.RAPHAEL,
-      },
-      {
-        text: "Practicing your ninja moves.",
-        turtle: turtles.ALICE,
       },
       {
         text: "Jumping all around the dojo.",
